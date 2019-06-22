@@ -26,7 +26,7 @@ For evaluating the performance of the proposed method, Two challenging task in m
 
 Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | AUC
 ------------ | -------------|----|-----------------|----|---- |---- 
-Chen [1]        |2014	  |	-       |0.7252	  |0.9798	  |0.9474	  |0.9648
+Chen [hybrid features](https://link.springer.com/article/10.1007/s00138-014-0638-x)        |2014	  |	-       |0.7252	  |0.9798	  |0.9474	  |0.9648
 Azzopardi [2]   |2015	  |	-       |0.7655	  |0.9704	  |0.9442	  |0.9614
 Roychowdhury [3]|2016 	|	-       |0.7250	  |**0.9830**	  |0.9520	  |0.9620
 Liskowsk [4]	  |2016	  |	-       |0.7763	  |0.9768	  |0.9495	  |0.9720
