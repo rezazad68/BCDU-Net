@@ -26,9 +26,9 @@ For evaluating the performance of the proposed method, Two challenging task in m
 
 Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | AUC
 ------------ | -------------|----|-----------------|----|---- |---- 
-Chen [hybrid features](https://link.springer.com/article/10.1007/s00138-014-0638-x)        |2014	  |	-       |0.7252	  |0.9798	  |0.9474	  |0.9648
-Azzopardi [2]   |2015	  |	-       |0.7655	  |0.9704	  |0.9442	  |0.9614
-Roychowdhury [3]|2016 	|	-       |0.7250	  |**0.9830**	  |0.9520	  |0.9620
+Chen etc. all [hybrid features](https://link.springer.com/article/10.1007/s00138-014-0638-x)        |2014	  |	-       |0.7252	  |0.9798	  |0.9474	  |0.9648
+Azzopardi and etc. all [Trainable COSFIRE filters ](https://www.sciencedirect.com/science/article/abs/pii/S1361841514001364)   |2015	  |	-       |0.7655	  |0.9704	  |0.9442	  |0.9614
+Roychowdhury [Three stage filtering] (https://ieeexplore.ieee.org/document/6848752)|2016 	|	-       |0.7250	  |**0.9830**	  |0.9520	  |0.9620
 Liskowsk [4]	  |2016	  |	-       |0.7763	  |0.9768	  |0.9495	  |0.9720
 Qiaoliang Li [5]|2016	  |	-       |0.7569	  |0.9816	  |0.9527	  |0.9738
 U-net	     	    |2018   | 0.8142	|0.7537	  |0.9820	  |0.9531   |0.9755
