@@ -24,9 +24,9 @@ For evaluating the performance of the proposed method, Two challenging task in m
 
 ### Performance Evalution on the Skin Lesion Segmentation task
 
-Methods | F1-scores | Sensivity| | Specificaty| Accuracy | Area Under ROC Curve
+Methods | F1-scores | Sensivity| Specificaty| Accuracy | Area Under ROC Curve
 ------------ | -------------|----|-----------------|----|----
-
+| 96.22| 96.52|98.05| 96.22| 96.52|98.05
 # a
 
 Data Set| Strategy 1 | Strategy 2| Strategy 3
