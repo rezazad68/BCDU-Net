@@ -19,11 +19,10 @@ Run the `Main_MSRAction3D()` for both feature extraction and classification of d
 ![Action and Hand Gesture Recognition](https://user-images.githubusercontent.com/20574689/29744825-1f43af08-8ac2-11e7-894e-2cb1b316185a.png)
 =========
 ## Results
-For evaluating the performance of the proposed method, three public data sets has been considered. In bellow, results of using three different strategies for 3D Action recognition demonstrated.
+For evaluating the performance of the proposed method, Two challenging task in medical image segmentaion has been considered. In bellow, results of the proposed approach illustrated.
 </br>
-- Strategy 1 : Vlad Representation of Spatio-Temporal HOG Features from Different Representations
-- Strategy 2 : Vlad Representation of Spatio-Temporal LBP Features from Different Representations 
-- Strategy 3 : Vlad Representation of Spatio-Temporal HOG+LBP Features from Different Representations 
+
+### Performance Evalution on the Skin Lesion Segmentation task
 
 Data Set| Strategy 1 | Strategy 2| Strategy 3
 ------------ | -------------|----|----
