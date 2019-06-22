@@ -24,6 +24,11 @@ For evaluating the performance of the proposed method, Two challenging task in m
 
 ### Performance Evalution on the Skin Lesion Segmentation task
 
+Methods | F1-scores | Sensivity| | Specificaty| Accuracy | Area Under ROC Curve
+
+
+# a
+
 Data Set| Strategy 1 | Strategy 2| Strategy 3
 ------------ | -------------|----|----
 [MSR Gesture 3D](http://www.uow.edu.au/~wanqing/#MSRAction3DDatasets) | 96.22| 96.52|98.05
