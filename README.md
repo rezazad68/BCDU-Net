@@ -21,8 +21,11 @@ Run the `Main_MSRAction3D()` for both feature extraction and classification of d
 ## Results
 For evaluating the performance of the proposed method, Two challenging task in medical image segmentaion has been considered. In bellow, results of the proposed approach illustrated.
 </br>
+#### Task 1: Retinal Blood Vessel Segmentation
 
-### Performance Evalution on the Skin Lesion Segmentation task
+
+### Performance Comparision on Retina Blood Vessel Segmentation
+In order to compare the proposed method with state of the art appraoches on retinal blood vessel segmentation, we considered Drive dataset.  
 
 Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | AUC
 ------------ | -------------|----|-----------------|----|---- |---- 
@@ -66,24 +69,6 @@ Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(2).png)
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(3).png)
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(4).png)
-
-
-Data Set| Strategy 1 | Strategy 2| Strategy 3
------------- | -------------|----|----
-[MSR Gesture 3D](http://www.uow.edu.au/~wanqing/#MSRAction3DDatasets) | 96.22| 96.52|98.05
-[SKIG](http://lshao.staff.shef.ac.uk/data/SheffieldKinectGesture.htm) | 95.0|95.60|97.31
-[MSR Action 3D](http://www.uow.edu.au/~wanqing/#MSRAction3DDatasets)|91.94|91.57|95.24
-[NTU RGB+D](https://github.com/shahroudy/NTURGB-D)|-|-|75.16 deep
-
-#### Effect of Choosing number of Visual Words on each data set has been illustrated in the followin table:
-Selecting number of Visual Words on each data sets related to number of classes on each data set. In the following table these information has been evaluated. </br>
-
-Number of Visual Words|25|30|40|50|70|100|128
----|---|---|---|---|---|---|---
-[MSR Gesture 3D](http://www.uow.edu.au/~wanqing/#MSRAction3DDatasets) |98.05|97.50|97.50|96.94|96.66|96.38|96.38
-[SKIG](http://lshao.staff.shef.ac.uk/data/SheffieldKinectGesture.htm) |97.13|97.22|96.67|96.48|96.76|96.30|96.02
-[MSR Action 3D](http://www.uow.edu.au/~wanqing/#MSRAction3DDatasets) |92.31|93.04|93.04|94.14|95.24|93.77|93.77
-
 
 
 #### Choosing appropriate number of PCA components
