@@ -44,8 +44,23 @@ Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-
 ![Retinal Blood Vessel Segmentation result 2](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_2.png)
 ![Retinal Blood Vessel Segmentation result 3](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_3.png)
 
-# a
+#### Skin Lesion Segmentation
 
+### Performance Evalution on the Skin Lesion Segmentation task
+
+Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | AUC
+------------ | -------------|----|-----------------|----|---- |---- 
+Ronneberger and etc. all [U-net](https://arxiv.org/abs/1505.04597)	     	    |2018   | 0.8142	|0.7537	  |0.9820	  |0.9531   |0.9755
+Alom  etc. all [Recurrent Residual U-net](https://arxiv.org/abs/1802.06955)	|2018	  | 0.8149  |0.7726	  |0.9820	  |0.9553	  |0.9779
+Oktay  etc. all [Attention U-net](https://arxiv.org/abs/1804.03999)	|2018	  | 0.8155	|0.7751	  |0.9816	  |0.9556	  |0.9782
+Alom  etc. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	        |2018	  | 0.8171	|0.7792	  |0.9813	  |0.9556	  |0.9784
+Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	  |2019 	| **0.8222**	|**0.8012**	  |0.9784	  |**0.9559**	  |**0.9787**
+
+
+
+
+
+#### Skin Lesion Segmentation results
 
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(1).png)
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(2).png)
