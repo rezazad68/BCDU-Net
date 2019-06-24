@@ -34,7 +34,7 @@ Azzopardi  etc. all [Trainable COSFIRE filters ](https://www.sciencedirect.com/s
 Roychowdhury and etc. all [Three Stage Filtering](https://ieeexplore.ieee.org/document/6848752)|2016 	|	-       |0.7250	  |**0.9830**	  |0.9520	  |0.9620
 Liskowsk  etc. all[Deep Model](https://ieeexplore.ieee.org/document/7440871)	  |2016	  |	-       |0.7763	  |0.9768	  |0.9495	  |0.9720
 Qiaoliang  etc. all [Cross-Modality Learning Approach](https://ieeexplore.ieee.org/document/7161344)|2016	  |	-       |0.7569	  |0.9816	  |0.9527	  |0.9738
-Ronneberger and etc. all [U-net](https://arxiv.org/abs/1505.04597)	     	    |2018   | 0.8142	|0.7537	  |0.9820	  |0.9531   |0.9755
+Ronneberger and etc. all [U-net](https://arxiv.org/abs/1505.04597)	     	    |2015   | 0.8142	|0.7537	  |0.9820	  |0.9531   |0.9755
 Alom  etc. all [Recurrent Residual U-net](https://arxiv.org/abs/1802.06955)	|2018	  | 0.8149  |0.7726	  |0.9820	  |0.9553	  |0.9779
 Oktay  etc. all [Attention U-net](https://arxiv.org/abs/1804.03999)	|2018	  | 0.8155	|0.7751	  |0.9816	  |0.9556	  |0.9782
 Alom  etc. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	        |2018	  | 0.8171	|0.7792	  |0.9813	  |0.9556	  |0.9784
@@ -55,9 +55,9 @@ Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | PC | JS
 ------------ | -------------|----|-----------------|----|---- |---- |---- 
 Ronneberger and etc. all [U-net](https://arxiv.org/abs/1505.04597)	     	    |2015   | 0.647	|0.708	  |0.964	  |0.890  |0.779 |0.549
 Alom  etc. all [Recurrent Residual U-net](https://arxiv.org/abs/1802.06955)	|2018	  | 0.679 |0.792 |0.928 |0.880	  |0.741	  |0.581
-Oktay  etc. all [Attention U-net](https://arxiv.org/abs/1804.03999)	|2018	  | 0.665	|0.717	  |0.967	  |0.897	  |0.787 | 566 
-Alom  etc. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	        |2018	  | 0.691	|0.726	  |0.971	  |0.904	  |0.822 | 592
-Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	  |2019 	| **0.8222**	|**0.8012**	  |0.9784	  |**0.9559**	  |**0.9787**
+Oktay  etc. all [Attention U-net](https://arxiv.org/abs/1804.03999)	|2018	  | 0.665	|0.717	  |0.967	  |0.897	  |0.787 | 0.566 
+Alom  etc. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	        |2018	  | 0.691	|0.726	  |0.971	  |0.904	  |0.822 | 0.592
+Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	  |2019 	| **0.8453**	|**0.7851**	  |**0.9801**	  |**0.9381**	  |**0.9155**| **0.9381**
 
 
 
@@ -73,12 +73,6 @@ Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-
 
 #### Choosing appropriate number of PCA components
 in the following table accuracy rate for choosing different amount of PCA components depicted. </br>
-
-PCA Components|70|100|130|160|190|220|250
----|---|---|---|---|---|---|---
-[MSR Gesture 3D](http://www.uow.edu.au/~wanqing/#MSRAction3DDatasets) |97.50|97.77|98.05|97.50|98.05|97.50|97.50
-[SKIG](http://lshao.staff.shef.ac.uk/data/SheffieldKinectGesture.htm) |96.57|97.13|97.22|97.31|97.31|96.94|97.31
-[MSR Action 3D](http://www.uow.edu.au/~wanqing/#MSRAction3DDatasets) |94.54|94.87|95.24|95.25|94.87|94.87|94.87
 
 ### Query
 For any query please contact us for more information.
