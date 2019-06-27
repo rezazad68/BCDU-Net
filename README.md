@@ -4,16 +4,20 @@
 Deep auto-encoder-decoder network for medical image segmentation with state of the art results on skin lesion segmentation and retina blood vessel segmentation. This method applies attentional LSTM layers in U-net structure to capture details information. If this code helps with your research please consider citing the following paper:
 </br>
 > [R. Azad](https://scholar.google.com/citations?user=Qb5ildMAAAAJ&hl=en), [M. Asadi](http://ipl.ce.sharif.edu/members.html), [S. Kasaei](http://sharif.edu/~skasaei/), [Sergio Escalera](http://sergioescalera.com/organizer/) "Dynamic 3D Hand Gesture Recognition by Learning Weighted Depth Motion Maps", IEEE Transaction on CSVT, 2018, download [link](https://ieeexplore.ieee.org/document/8410578/).
+
 ## Updates
-- September 2, 2017: First release (Complete implemenation for [MSR Action 3D](http://www.uow.edu.au/~wanqing/#MSRAction3DDatasets) data set)
-- May 5, 2018: Complete implemenation for [NTU RGB+D](https://github.com/shahroudy/NTURGB-D) data set added. Accuracy rate 75.16 and 68.66 with deep and non deep features achieved respectively. It is worth to mention that our method achieved highest performance on depth data (75.16))
-- July 14, 2018: Paper [link](https://ieeexplore.ieee.org/document/8410578/) in IEEE Transaction on Circuits and Systems for Video Technology
+- July x, 2019: First release (Complete implemenation for [SKing Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/) and [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) dataset added.)
+- July y, 2019: Paper submitted to the MICCAI workshop 2019.
+
 ## Prerequisties and Run
-This code has been implemented in Matlab 2016a and tested in both Linux (ubuntu) and Windows 10, though should be compatible with any OS running Matlab. following Environement and Library needed to run the code:
-- Matlab 2016
-- [VL feat 0.9.20](http://www.vlfeat.org/)
+This code has been implemented in python language using Keras libarary with tensorflow backend and tested in ubuntu OS, though should be compatible with related environment. following Environement and Library needed to run the code:
+
+- Python 3
+- Keras - tensorflow backend
+
+
 ## Run Demo
-For runing the deep model for each task, go to the related folder and follow the bellow steps:
+For training deep model for each task, go to the related folder and follow the bellow steps:
 
 #### Skin Lesion Segmentation
 1- Download the ISIC 2018 train dataset from [this](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) link and extract both training dataset and ground truth folders inside the `dataset_isic18`. </br>
@@ -21,9 +25,10 @@ For runing the deep model for each task, go to the related folder and follow the
 3- Run `train_isic18.py` for training LSTM-U-net model using trainng and validation sets. The model will be train for 100 epochs and it will save the best weights for the valiation set.</br>
 4- For performance calculation and producing segmentation result, run `evaluate.py`. It will represent performance measures and will saves related figures and results in `output` folder.</br>
 
+#### Retina Blood Vessel Segmentation
 
-for aggregating of descriptions and classification phase. These two functions can be use seperetely too. Function such as `Video Summarization()`, `Forward Bakward Motion()`, `Difference Forward Energy()`, `Temporal Sequence Generating()`, `Binary Weighted Mapping()`, and extracting `Regional LBP and HOG features()` has been implemented in 'Video_Analyser' class. the `Description_Classification class` contains functions that related to Vlad representation and dimension reduction phase.    
-</br>
+
+
 ## Quick Overview
 ![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/method.png)
 =========
@@ -79,9 +84,6 @@ Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(3).png)
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(4).png)
 
-
-#### Choosing appropriate number of PCA components
-in the following table accuracy rate for choosing different amount of PCA components depicted. </br>
 
 ### Query
 For any query please contact us for more information.
