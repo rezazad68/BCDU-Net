@@ -1,0 +1,1 @@
+Evalution output including sample of segmentation results, measurements and diagrams will be save here
