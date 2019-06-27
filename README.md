@@ -13,7 +13,16 @@ This code has been implemented in Matlab 2016a and tested in both Linux (ubuntu)
 - Matlab 2016
 - [VL feat 0.9.20](http://www.vlfeat.org/)
 ## Run Demo
-Run the `Main_MSRAction3D()` for both feature extraction and classification of dynamic 3D action. The `Main_MSRAction3D` uses `Step1_Extract_Featues` for extracting spatio-temporal features from different represantion of 3D video and `Step2_Description_Classification` for aggregating of descriptions and classification phase. These two functions can be use seperetely too. Function such as `Video Summarization()`, `Forward Bakward Motion()`, `Difference Forward Energy()`, `Temporal Sequence Generating()`, `Binary Weighted Mapping()`, and extracting `Regional LBP and HOG features()` has been implemented in 'Video_Analyser' class. the `Description_Classification class` contains functions that related to Vlad representation and dimension reduction phase.    
+For runing the deep model for each task, go to the related folder and follow the bellow steps:
+
+#### Skin Lesion Segmentation
+1- Download the ISIC 2018 train dataset from this [link](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) and extract both training dataset and ground truth folders inside the `dataset_isic18`.
+2- Run `Prepare_ISIC2018.py` for data preperation and dividing data to train,validation and test sets.
+3- Run `train_isic18.py` for training LSTM-U-net model using trainng and validation sets. The model will be train for 100 epochs and it will save the best weights for the valiation set.
+4- For performance calculation and producing segmentation result, run `evaluate.py`. It will represent performance measures and will saves related figures and results in `output` folder.
+
+
+for aggregating of descriptions and classification phase. These two functions can be use seperetely too. Function such as `Video Summarization()`, `Forward Bakward Motion()`, `Difference Forward Energy()`, `Temporal Sequence Generating()`, `Binary Weighted Mapping()`, and extracting `Regional LBP and HOG features()` has been implemented in 'Video_Analyser' class. the `Description_Classification class` contains functions that related to Vlad representation and dimension reduction phase.    
 </br>
 ## Quick Overview
 ![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/method.png)
