@@ -45,7 +45,7 @@ For evaluating the performance of the proposed method, Two challenging task in m
 #### Task 1: Retinal Blood Vessel Segmentation
 
 
-### Performance Comparision on Retina Blood Vessel Segmentation
+#### Performance Comparision on Retina Blood Vessel Segmentation
 In order to compare the proposed method with state of the art appraoches on retinal blood vessel segmentation, we considered Drive dataset.  
 
 Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | AUC
@@ -68,9 +68,10 @@ Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-
 ![Retinal Blood Vessel Segmentation result 2](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_2.png)
 ![Retinal Blood Vessel Segmentation result 3](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_3.png)
 
-#### Skin Lesion Segmentation
+</br>
+## Skin Lesion Segmentation
 
-### Performance Evalution on the Skin Lesion Segmentation task
+#### Performance Evalution on the Skin Lesion Segmentation task
 
 Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | PC | JS 
 ------------ | -------------|----|-----------------|----|---- |---- |---- 
