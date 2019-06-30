@@ -22,7 +22,7 @@ For training deep model for each task, go to the related folder and follow the b
 #### Skin Lesion Segmentation
 1- Download the ISIC 2018 train dataset from [this](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) link and extract both training dataset and ground truth folders inside the `dataset_isic18`. </br>
 2- Run `Prepare_ISIC2018.py` for data preperation and dividing data to train,validation and test sets. </br>
-3- Run `train_isic18.py` for training LSTM-U-net model using trainng and validation sets. The model will be train for 100 epochs and it will save the best weights for the valiation set.</br>
+3- Run `train_isic18.py` for training LSTM-U-net model using trainng and validation sets. The model will be train for 100 epochs and it will save the best weights for the valiation set. You can also train U-net model for this dataset by changing model to unet, however, the performance will be low comparing to LSTM U-net. </br>
 4- For performance calculation and producing segmentation result, run `evaluate.py`. It will represent performance measures and will saves related figures and results in `output` folder.</br>
 
 #### Retina Blood Vessel Segmentation
