@@ -92,6 +92,15 @@ Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(3).png)
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(4).png)
 
+### Model weights
+You can download the learned weights for each task in the following table. 
+
+Task | Dataset |Learned weights
+------------ | -------------|----
+Blood Vessel Segmentation | [Drive](http://www.isi.uu.nl/Research/Databases/DRIVE/) | LSTM -U-net
+Skin Lesion Segmentation | [ISIC2018](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) | LSTM -U-net
+
+
 
 ### Query
 For any query please contact us for more information.
