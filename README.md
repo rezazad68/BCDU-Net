@@ -26,7 +26,7 @@ For training deep model for each task, go to the related folder and follow the b
 4- For performance calculation and producing segmentation result, run `evaluate.py`. It will represent performance measures and will saves related figures and results in `output` folder.</br>
 
 #### Retina Blood Vessel Segmentation
-1- Download Drive dataset from [this](http://www.isi.uu.nl/Research/Databases/DRIVE/) link and extract both training  and test  folders</br>
+1- Download Drive dataset from [this](http://www.isi.uu.nl/Research/Databases/DRIVE/) link and extract both training  and test  folders in a folder name DRIVE (make a new folder with name DRIVE) </br>
 2- Run `prepare_datasets_DRIVE.py` for reading whole data. This code will read all the train and test samples and will saves them as a hdf5 file in the `DRIVE_datasets_training_testing` folder. </br>
 3- The next step is to extract random patches from the training set to train the model, to do so, Run `save_patch.py`, it will extract random patches with size 64*64 and will save them as numpy file. This code will use `help_functions.py`, `spre_processing.py` and `extract_patches.py` functions for data normalization and patch extraction.  
 4- For model training, run `train_retina.py`, it will load the training data and will use 20% of training samples as a validation set. The model will be train for 50 epochs and it will save the best weights for the valiation set.</br>
