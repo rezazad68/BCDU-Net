@@ -90,19 +90,17 @@ else:
 
 
 
-model = M.attentional_lstm_encdec(input_size = (64,64,1))
-model.summary()
-model.load_weights('weight_lstm.hdf5')
-predictions = model.predict(patches_imgs_test, batch_size=16, verbose=1)
+
 
 
 #================ Run the prediction of the patches ==================================
 best_last = 'best'
 patches_imgs_test = np.einsum('klij->kijl', patches_imgs_test)
 
-
-
-#predictions = model.predict(patches_imgs_test, batch_size=32, verbose=1)
+model = M.attentional_lstm_encdec(input_size = (64,64,1))
+model.summary()
+model.load_weights('weight_lstm.hdf5')
+predictions = model.predict(patches_imgs_test, batch_size=16, verbose=1)
 
 predictions = np.einsum('kijl->klij', predictions)
 print(patches_imgs_test.shape)
