@@ -110,7 +110,7 @@ Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-
 
 
 #### Lung Segmentation results
-![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/es2.png)
+![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/es3.png)
 
 
 
