@@ -111,11 +111,9 @@ Azad etc. all [Proposed Attention LSTM-U-net](https://github.com/rezazad68/LSTM-
 
 #### Lung Segmentation results
 
-![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(1).png)
-![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(2).png)
-![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(3).png)
-![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(4).png)
-
+![Lung Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/es2.png)
+![Lung Segmentation result 2](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/es3.png)
+![Lung Segmentation result 3](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/es5.png)
 
 
 ### Model weights
