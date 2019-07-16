@@ -50,7 +50,7 @@ val_mask  = val_mask /255.
 print('dataset Normalized')
 
 # Build model
-model = M.attentional_lstm_encdec(input_size = (256,256,3))
+model = M.BCDU_net_D3(input_size = (256,256,3))
 model.summary()
 
 print('Training')
