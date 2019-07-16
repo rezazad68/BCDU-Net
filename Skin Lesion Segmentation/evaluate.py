@@ -30,7 +30,7 @@ print('ISIC18 Dataset loaded')
 
 te_data2  = dataset_normalized(te_data)
 
-model = M.attentional_lstm_encdec(input_size = (256,256,3))
+model = M.BCDU_net_D3(input_size = (256,256,3))
 model.summary()
 model.load_weights('weight_isic18')
 predictions = model.predict(te_data, batch_size=8, verbose=1)
