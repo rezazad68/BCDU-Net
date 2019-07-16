@@ -32,7 +32,7 @@ patches_masks_train = np.einsum('klij->kijl', patches_masks_train)
 print('Patch extracted')
 
 #model = M.unet2_segment(input_size = (64,64,1))
-model = M.attentional_lstm_encdec(input_size = (64,64,1))
+model = M.BCDU_net_D3(input_size = (64,64,1))
 model.summary()
 
 print('Training')
