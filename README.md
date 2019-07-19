@@ -122,8 +122,9 @@ You can download the learned weights for each task in the following table.
 
 Task | Dataset |Learned weights
 ------------ | -------------|----
-Blood Vessel Segmentation | [Drive](http://www.isi.uu.nl/Research/Databases/DRIVE/) | LSTM -U-net
-Skin Lesion Segmentation | [ISIC2018](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) | LSTM -U-net
+Retina Blood Vessel Segmentation | [Drive](http://www.isi.uu.nl/Research/Databases/DRIVE/) |[BCDU_net_D3](https://drive.google.com/open?id=1_hpfspGGJcWyFcGLXkFUa4k1NdUyOSOb)
+Skin Lesion Segmentation | [ISIC2018](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) |[BCDU_net_D3](https://drive.google.com/open?id=1EPRC-YmMk0AjHbdjoVy53jlSuweSbAHX)
+Lung Segmentation | [ISIC2018](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) | [BCDU_net_D3](https://drive.google.com/open?id=1pHOntUOdqd0MSz4cHUOHi2Ssn3KBH-fU)
 
 
 
