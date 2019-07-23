@@ -37,9 +37,9 @@ Note: For image pre-processing and patch extraction we used [this](https://githu
 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/method.png)
+![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/bcdunet.png)
 
-=========
+
 ## Results
 For evaluating the performance of the proposed method, Two challenging task in medical image segmentaion has been considered. In bellow, results of the proposed approach illustrated.
 </br>
