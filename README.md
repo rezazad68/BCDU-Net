@@ -37,7 +37,7 @@ Note: For image pre-processing and patch extraction we used [this](https://githu
 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/bcdunet.png)
+![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/method.png)
 
 =========
 ## Results
