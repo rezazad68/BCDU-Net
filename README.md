@@ -1,9 +1,9 @@
-# [Attention LSTM U-net: Medical Image Segmentation ](https://www.miccai2019.org/)
+# [Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ](http://iccv2019.thecvf.com/)
 
 
-Deep auto-encoder-decoder network for medical image segmentation with state of the art results on skin lesion segmentation and retina blood vessel segmentation. This method applies attentional LSTM layers in U-net structure to capture details information. If this code helps with your research please consider citing the following paper:
+Deep auto-encoder-decoder network for medical image segmentation with state of the art results on skin lesion segmentation, lung segmentation, and retinal blood vessel segmentation. This method applies bidirectional convolutional LSTM layers in U-net structure to non-linearly encode both semantic and high-resolution information non-linearly. Furthermore, it applies densely connected convolution layers to include collective knowledge in representation and boost convergence rate with batch normalization layers. If this code helps with your research please consider citing the following paper:
 </br>
-> [R. Azad](https://scholar.google.com/citations?user=Qb5ildMAAAAJ&hl=en), [M. Asadi](http://ipl.ce.sharif.edu/members.html), [S. Kasaei](http://sharif.edu/~skasaei/), [Sergio Escalera](http://sergioescalera.com/organizer/) "Dynamic 3D Hand Gesture Recognition by Learning Weighted Depth Motion Maps", IEEE Transaction on CSVT, 2018, download [link](https://ieeexplore.ieee.org/document/8410578/).
+> [R. Azad](https://scholar.google.com/citations?user=Qb5ildMAAAAJ&hl=en), [M. Asadi](http://ipl.ce.sharif.edu/members.html), [S. Kasaei](http://sharif.edu/~skasaei/), [Sergio Escalera](http://sergioescalera.com/organizer/) "Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ", ICCV, 2019, download [link](http://iccv2019.thecvf.com/).
 
 ## Updates
 - July x, 2019: First release (Complete implemenation for [SKing Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/) and [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) dataset added.)
