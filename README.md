@@ -6,8 +6,8 @@ Deep auto-encoder-decoder network for medical image segmentation with state of t
 > [R. Azad](https://scholar.google.com/citations?user=Qb5ildMAAAAJ&hl=en), [M. Asadi](http://ipl.ce.sharif.edu/members.html), [S. Kasaei](http://sharif.edu/~skasaei/), [Sergio Escalera](http://sergioescalera.com/organizer/) "Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ", ICCV, 2019, download [link](http://iccv2019.thecvf.com/).
 
 ## Updates
-- July x, 2019: First release (Complete implemenation for [SKing Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/) and [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) dataset added.)
-- July y, 2019: Paper submitted to the MICCAI workshop 2019.
+- July x, 2019: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/), [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) and [Lung segmentation]()dataset added.)
+- July y, 2019: Paper submitted to the ICCV workshop 2019.
 
 ## Prerequisties and Run
 This code has been implemented in python language using Keras libarary with tensorflow backend and tested in ubuntu OS, though should be compatible with related environment. following Environement and Library needed to run the code:
