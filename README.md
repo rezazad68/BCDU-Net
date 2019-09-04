@@ -1,9 +1,9 @@
-# [Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ](http://iccv2019.thecvf.com/)
+# [Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ](https://arxiv.org/pdf/1909.00166.pdf)
 
 
 Deep auto-encoder-decoder network for medical image segmentation with state of the art results on skin lesion segmentation, lung segmentation, and retinal blood vessel segmentation. This method applies bidirectional convolutional LSTM layers in U-net structure to non-linearly encode both semantic and high-resolution information non-linearly. Furthermore, it applies densely connected convolution layers to include collective knowledge in representation and boost convergence rate with batch normalization layers. If this code helps with your research please consider citing the following paper:
 </br>
-> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [M. Asadi](https://scholar.google.com/citations?hl=en&user=8UqpIK8AAAAJ&view_op=list_works&sortby=pubdate), [Mahmood Fathy](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate) and [Sergio Escalera](https://scholar.google.com/citations?hl=en&user=oI6AIkMAAAAJ&view_op=list_works&sortby=pubdate) "Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ", ICCV, 2019, download [link](https://github.com/rezazad68/BCDU-Net/blob/master/Bi_Directional_ConvLSTM_U_Net_with_Densely_Connected_Convolutions.pdf).
+> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [M. Asadi](https://scholar.google.com/citations?hl=en&user=8UqpIK8AAAAJ&view_op=list_works&sortby=pubdate), [Mahmood Fathy](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate) and [Sergio Escalera](https://scholar.google.com/citations?hl=en&user=oI6AIkMAAAAJ&view_op=list_works&sortby=pubdate) "Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ", ICCV, 2019, download [link](https://arxiv.org/pdf/1909.00166.pdf).
 
 ## Updates
 - Augest 28, 2019: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/), [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) and [Lung segmentation]()dataset added.)
@@ -132,9 +132,9 @@ Lung Segmentation | [ISIC2018](https://challenge.kitware.com/#phase/5abcb19a5635
 
 
 ### Query
-For any query please contact us for more information.
+Implementation done by Reza Azad. For any query please contact us for more information.
 
 ```python
-razad@ce.sharif.edu
+rezazad68@gmail.com
 
 ```
