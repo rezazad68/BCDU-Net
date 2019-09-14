@@ -105,13 +105,12 @@ Azad etc. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/m
 
 #### Performance Evalution on the Lung Segmentation task
 
-Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | PC | JS 
+Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | AUC | JS 
 ------------ | -------------|----|-----------------|----|---- |---- |---- 
-Ronneberger and etc. all [U-net](https://arxiv.org/abs/1505.04597)	     	    |2015   | 0.647	|0.708	  |0.964	  |0.890  |0.779 |0.549
-Alom  etc. all [Recurrent Residual U-net](https://arxiv.org/abs/1802.06955)	|2018	  | 0.679 |0.792 |0.928 |0.880	  |0.741	  |0.581
-Oktay  etc. all [Attention U-net](https://arxiv.org/abs/1804.03999)	|2018	  | 0.665	|0.717	  |0.967	  |0.897	  |0.787 | 0.566 
-Alom  etc. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	        |2018	  | 0.691	|0.726	  |0.971	  |0.904	  |0.822 | 0.592
-Azad etc. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	  |2019 	| **0.847**	|**0.783**	  |**0.980**	  |**0.936**	  |**0.922**| **0.936**
+Ronneberger and etc. all [U-net](https://arxiv.org/abs/1505.04597)	     	    |2015   | 0.9658	|0.9696	  |0.9872	  |0.9872  |0.9784 |0.9858
+Alom  etc. all [Recurrent Residual U-net](https://arxiv.org/abs/1802.06955)	|2018	  | 0.9638 |0.9734 |0.9866 |0.9836	  |0.9800	  |0.9836
+Alom  etc. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	        |2018	  | 0.9832	|**0.9944**	  |0.9832	  |0.9918	  |0.9889 | 0.9918
+Azad etc. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	  |2019 	| **0.9904**	|0.9910	  |**0.9982**	  |**0.9972**	  |**0.9946**| **0.9972**
 
 
 
