@@ -6,7 +6,7 @@ Deep auto-encoder-decoder network for medical image segmentation with state of t
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [M. Asadi](https://scholar.google.com/citations?hl=en&user=8UqpIK8AAAAJ&view_op=list_works&sortby=pubdate), [Mahmood Fathy](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate) and [Sergio Escalera](https://scholar.google.com/citations?hl=en&user=oI6AIkMAAAAJ&view_op=list_works&sortby=pubdate) "Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ", ICCV, 2019, download [link](https://arxiv.org/pdf/1909.00166.pdf).
 
 ## Updates
-- Augest 28, 2019: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/), [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) and [Lung segmentation](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data)dataset added.)
+- Augest 28, 2019: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/), [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) and [Lung segmentation](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) dataset added.)
 - Augest 27, 2019: Paper Accepted in the ICCV workshop 2019 (Oral presentation).
 
 ## Prerequisties and Run
@@ -33,6 +33,11 @@ For training deep model for each task, go to the related folder and follow the b
 4- For performance calculation and producing segmentation result, run `evaluate.py`. It will represent performance measures and will saves related figures and results in `test` folder.</br>
 Note: For image pre-processing and patch extraction we used [this](https://github.com/orobix/retina-unet) github's code.</br>
 
+#### Lung Segmentation
+1- Download the Lung Segmentation dataset from [Kaggle](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) link and extract it. </br>
+2- Run `Prepare_data.py` for data preperation, train/test seperation and generating new masks around the lung tissues.
+3- Run `train_lung.py` for training BCDU-Net model using trainng and validation sets (20 percent of the training set). The model will be train for 50 epochs and it will save the best weights for the valiation set. You can train either BCDU-net model with 1 or 3 densly connected convolutions. </br>
+4- For performance calculation and producing segmentation result, run `evaluate_performance.py`. It will represent performance measures and will saves related figures and results.</br>
 
 
 
