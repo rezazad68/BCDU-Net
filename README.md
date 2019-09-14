@@ -136,7 +136,7 @@ Lung Segmentation | [Lung kaggle](https://www.kaggle.com/kmader/finding-lungs-in
 
 
 ### Query
-Implementation done by Reza Azad. For any query please contact us for more information.
+All implementation done by Reza Azad. For any query please contact us for more information.
 
 ```python
 rezazad68@gmail.com
