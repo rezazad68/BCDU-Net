@@ -1,3 +1,4 @@
+from __future__ import division
 import nibabel as nib
 import numpy as np
 import Reza_functions as RF
