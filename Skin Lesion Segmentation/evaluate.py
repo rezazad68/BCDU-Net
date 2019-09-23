@@ -1,3 +1,4 @@
+from __future__ import division
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 import models as M
