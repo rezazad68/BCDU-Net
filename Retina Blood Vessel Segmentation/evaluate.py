@@ -1,5 +1,6 @@
+from __future__ import division
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "5"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import models as M
 import numpy as np
 from matplotlib import pyplot as plt
