@@ -1,3 +1,4 @@
+from __future__ import division
 from keras.models import Model
 from keras.layers import Input, concatenate, Conv2D, MaxPooling2D, UpSampling2D, Reshape, core, Dropout
 from keras.optimizers import Adam
