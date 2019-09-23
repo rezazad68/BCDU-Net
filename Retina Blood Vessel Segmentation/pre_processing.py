@@ -1,3 +1,4 @@
+from __future__ import division
 ###################################################
 #
 #   Script to pre-process the original imgs
