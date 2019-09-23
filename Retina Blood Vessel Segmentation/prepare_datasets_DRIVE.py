@@ -1,3 +1,4 @@
+from __future__ import division
 #==========================================================
 #
 #  This prepare the hdf5 datasets of the DRIVE database
