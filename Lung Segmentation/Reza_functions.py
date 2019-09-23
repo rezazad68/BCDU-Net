@@ -1,3 +1,4 @@
+from __future__ import division
 import numpy as np
 from scipy.ndimage.morphology import binary_erosion, binary_fill_holes
 
