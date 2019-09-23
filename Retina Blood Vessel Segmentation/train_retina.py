@@ -4,6 +4,7 @@ Created on Sat Jun  8 18:15:43 2019
 
 @author: Reza winchester
 """
+from __future__ import division
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "6"
 import models as M
