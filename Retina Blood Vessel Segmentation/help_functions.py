@@ -1,3 +1,4 @@
+from __future__ import division
 import h5py
 import numpy as np
 from PIL import Image
