@@ -6,7 +6,7 @@ Created on Sat Jun  8 18:15:43 2019
 """
 from __future__ import division
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "9"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import models as M
 import numpy as np
 from keras.callbacks import ModelCheckpoint, TensorBoard,ReduceLROnPlateau
