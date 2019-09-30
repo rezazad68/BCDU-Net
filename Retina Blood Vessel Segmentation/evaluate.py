@@ -238,7 +238,7 @@ file_perf.close()
 fig,ax = plt.subplots(10,3,figsize=[15,15])
 
 for idx in range(10):
-    ax[idx, 0].imshow(np.uint8(np.squeeze((orig_imgs[idx])))
+    ax[idx, 0].imshow(np.uint8(np.squeeze((orig_imgs[idx]))))
     ax[idx, 1].imshow(np.squeeze(gtruth_masks[idx]), cmap='gray')
     ax[idx, 2].imshow(np.squeeze(pred_imgs[idx]), cmap='gray')
 
