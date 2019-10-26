@@ -9,7 +9,7 @@ Deep auto-encoder-decoder network for medical image segmentation with state of t
 
 ## Updates
 - Augest 28, 2019: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/), [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) and [Lung segmentation](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) dataset added.)
-- Augest 27, 2019: Paper Accepted in the ICCV workshop 2019 (Oral presentation).
+- Augest 27, 2019: Paper Accepted in the (ICCV workshop)[https://sites.google.com/view/iccv19-vrmi/home?authuser=0] 2019 (Oral presentation).
 
 ## Prerequisties and Run
 This code has been implemented in python language using Keras libarary with tensorflow backend and tested in ubuntu OS, though should be compatible with related environment. following Environement and Library needed to run the code:
