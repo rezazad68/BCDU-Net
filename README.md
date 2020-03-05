@@ -51,7 +51,7 @@ Note: For image pre-processing and patch extraction we used [this](https://githu
 ![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/convlstm.png)
 
 ### Structure of the BConvLSTM+SE that used in our network (MCGU-Net)
-![https://github.com/rezazad68/BCDU-Net/blob/master/output_images/SEBConvLSTM.png)
+![Feature encoder of the MCGU-Net](https://github.com/rezazad68/BCDU-Net/blob/master/output_images/SEBConvLSTM.png)
 
 ## Results
 For evaluating the performance of the proposed method, Two challenging task in medical image segmentaion has been considered. In bellow, results of the proposed approach illustrated.
