@@ -8,6 +8,7 @@ Deep auto-encoder-decoder network for medical image segmentation with state of t
 #### Please consider starring us, if you found it useful. Thanks
 
 ## Updates
+- March 5, 2020: An extended version of the network has been released(Complete implemenation for [SKin Lesion Segmentation on ISIC 217](https://challenge.kitware.com/#challenge/583f126bcad3a51cc66c8d9a), [Skin Lesion Segmentation PH2 Dataset](https://www.fc.up.pt/addi/ph2%20database.html) and [cell nuclei]() along with the network implementation will be update soon). 
 - December 4, 2019: Document Image Binarization using BCDU-Net on DIBCO Challenges has been implemented, best performance on DIBCO series [link](https://github.com/rezazad68/BCDUnet_DIBCO)
 - Augest 28, 2019: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/), [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) and [Lung segmentation](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) dataset added.)
 - Augest 27, 2019: Paper Accepted in the [ICCV workshop](https://sites.google.com/view/iccv19-vrmi/home?authuser=0]) 2019 (Oral presentation).
