@@ -133,7 +133,7 @@ Azad et. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/ma
 
 ## Cell Nuclei Segmentation
 #### Cell Nuclei Segmentation results
-![Cell Nuclei Segmentation results](https://github.com/rezazad68/BCDU-Net/blob/master/output_images/Nuclei.png)
+![Cell Nuclei Segmentation results](https://github.com/rezazad68/BCDU-Net/blob/master/output_images/Nuclei2.png)
 
 
 ### Model weights
