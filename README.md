@@ -131,7 +131,9 @@ Azad et. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/ma
 ![Lung Segmentation result 2](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/es5.png)
 ![Lung Segmentation result 3](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/est2.png)
 
-
+## Cell Nuclei Segmentation
+#### Cell Nuclei Segmentation results
+![Cell Nuclei Segmentation results](https://github.com/rezazad68/BCDU-Net/blob/master/output_images/Nuclei.png)
 
 
 ### Model weights
