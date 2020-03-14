@@ -98,7 +98,7 @@ Alom  et. all [Recurrent Residual U-net](https://arxiv.org/abs/1802.06955)	|2018
 Oktay  et. all [Attention U-net](https://arxiv.org/abs/1804.03999)	|2018	  | 0.665	|0.717	  |0.967	  |0.897	  |0.787 | 0.566 
 Alom  et. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	        |2018	  | 0.691	|0.726	  |0.971	  |0.904	  |0.822 | 0.592
 Azad et. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	  |2019 	| **0.847**	|**0.783**	  |**0.980**	  |**0.936**	  |**0.922**| **0.936**
-
+Azad et. all [MCGU-Net](https://128.84.21.199/pdf/2003.05056.pdf)	  |2020	| **0.895**	|**0.848**	  |**0.986**	  |**0.955**	  |**0.947**| **0.955**
 
 
 
