@@ -4,7 +4,7 @@ import numpy as np
 import Reza_functions as RF
 import nibabel as nib
 import glob
-
+import os
 # Define Train data and mask
 Data_train   = []
 Mask_train   = []
@@ -46,17 +46,17 @@ FOV_train   = np.array(FOV_train)
 alpha = np.int16(np.floor(Data_train.shape[0]* 0.7))
 en_d  = Data_train.shape[0]
 
-Train_img      = Data_train[0:alpha,:,:]
-Test_img       = Data_train[alpha:en_d,:,:]
+Train_img      = Data_train[0:alpha]
+Test_img       = Data_train[alpha:en_d]
 
-Train_mask     = Mask_train[0:alpha,:,:]
-Test_mask      = Mask_train[alpha:en_d,:,:]
+Train_mask     = Mask_train[0:alpha]
+Test_mask      = Mask_train[alpha:en_d]
 
-Train_maska     = Maska_train[0:alpha,:,:]
-Test_maska      = Maska_train[alpha:en_d,:,:]
+Train_maska     = Maska_train[0:alpha]
+Test_maska      = Maska_train[alpha:en_d]
 
-FOV_tr     = FOV_train[0:alpha,:,:]
-FOV_te      = FOV_train[alpha:en_d,:,:]
+FOV_tr     = FOV_train[0:alpha]
+FOV_te      = FOV_train[alpha:en_d]
 
 folder = './processed_data/'
 if not os.path.exists(folder):
