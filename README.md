@@ -155,3 +155,9 @@ All implementation done by Reza Azad. For any query please contact us for more i
 rezazad68@gmail.com
 
 ```
+
+## Copyright and License
+
+Copyright (c) 2020 Reza Azad
+
+BCDU-Net is free and open source software, distributed under the MIT license. Please refer to the [LICENSE](LICENSE) file or to the [quick summary](https://tldrlegal.com/license/mit-license) of this license on the [tl;drLegal](https://tldrlegal.com/license/mit-license) website for more information on this matter.
