@@ -4,6 +4,7 @@ import numpy as np
 import Reza_functions as RF
 import nibabel as nib
 import glob
+import os
 
 # Define Train data and mask
 Data_train   = []
