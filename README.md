@@ -1,4 +1,4 @@
-# [Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
+# [Contextual Attention Network: Transformer Meets U-Net](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
 
 
 Deep auto-encoder-decoder network for medical image segmentation with state of the art results on skin lesion segmentation, lung segmentation, and retinal blood vessel segmentation. This method applies bidirectional convolutional LSTM layers in U-net structure to non-linearly encode both semantic and high-resolution information with non-linearly technique. Furthermore, it applies densely connected convolution layers to include collective knowledge in representation and boost convergence rate with batch normalization layers. If this code helps with your research please consider citing the following papers:
@@ -25,27 +25,17 @@ This code has been implemented in python language using Keras libarary with tens
 
 
 ## Run Demo
-For training deep model for each task, go to the related folder and follow the bellow steps:
-
-#### Skin Lesion Segmentation
-1- Download the ISIC 2018 train dataset from [this](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) link and extract both training dataset and ground truth folders inside the `dataset_isic18`. </br>
+For training deep model and evaluating on each data set follow the bellow steps:</br>
+1- Download the ISIC 2018 train dataset from [this](https://challenge.isic-archive.com/data) link and extract both training dataset and ground truth folders inside the `dataset_isic18`. </br>
 2- Run `Prepare_ISIC2018.py` for data preperation and dividing data to train,validation and test sets. </br>
-3- Run `train_isic18.py` for training BCDU-Net model using trainng and validation sets. The model will be train for 100 epochs and it will save the best weights for the valiation set. You can also train U-net model for this dataset by changing model to unet, however, the performance will be low comparing to BCDU-Net. </br>
-4- For performance calculation and producing segmentation result, run `evaluate.py`. It will represent performance measures and will saves related figures and results in `output` folder.</br>
+3- Run `Train_Skin_Lesion_Segmentation.py` for training the model using trainng and validation sets. The model will be train for 100 epochs and it will save the best weights for the valiation set. </br>
+4- For performance calculation and producing segmentation result, run `Evaluate_Skin.py`. It will represent performance measures and will saves related results in `output` folder.</br>
 
-#### Retina Blood Vessel Segmentation
-1- Download Drive dataset from [this](https://drive.google.com/open?id=17wVfELqgwbp4Q02GD247jJyjq6lwB0l6) link and extract both training  and test  folders in a folder name DRIVE (make a new folder with name DRIVE) </br>
-2- Run `prepare_datasets_DRIVE.py` for reading whole data. This code will read all the train and test samples and will saves them as a hdf5 file in the `DRIVE_datasets_training_testing` folder. </br>
-3- The next step is to extract random patches from the training set to train the model, to do so, Run `save_patch.py`, it will extract random patches with size 64*64 and will save them as numpy file. This code will use `help_functions.py`, `spre_processing.py` and `extract_patches.py` functions for data normalization and patch extraction.  
-4- For model training, run `train_retina.py`, it will load the training data and will use 20% of training samples as a validation set. The model will be train for 50 epochs and it will save the best weights for the valiation set.</br>
-4- For performance calculation and producing segmentation result, run `evaluate.py`. It will represent performance measures and will saves related figures and results in `test` folder.</br>
-Note: For image pre-processing and patch extraction we used [this](https://github.com/orobix/retina-unet) github's code.</br>
-
-#### Lung Segmentation
-1- Download the Lung Segmentation dataset from [Kaggle](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) link and extract it. </br>
-2- Run `Prepare_data.py` for data preperation, train/test seperation and generating new masks around the lung tissues.
-3- Run `train_lung.py` for training BCDU-Net model using trainng and validation sets (20 percent of the training set). The model will be train for 50 epochs and it will save the best weights for the valiation set. You can train either BCDU-net model with 1 or 3 densly connected convolutions. </br>
-4- For performance calculation and producing segmentation result, run `evaluate_performance.py`. It will represent performance measures and will saves related figures and results.</br>
+**Notice:**
+For training and evaluating on ISIC 2017 and ph2 follow the bellow steps: :</br>
+**ISIC 2017**- Download the ISIC 2017 train dataset from [this](https://challenge.isic-archive.com/data) link and extract both training dataset and ground truth folders inside the `dataset_isic18\7`. </br> then Run ` 	Prepare_ISIC2017.py` for data preperation and dividing data to train,validation and test sets. </br>
+**ph2**- Download the ph2 dataset from [this](https://www.dropbox.com/s/k88qukc20ljnbuo/PH2Dataset.rar) link and extract it then Run ` 	Prepare_ph2.py` for data preperation and dividing data to train,validation and test sets. </br>
+Follow step 3 and 4 for model traing and performance estimation. For ph2 dataset you need to first train the model with ISIC 2018 data set and then fine-tune the trained model using ph2 dataset.
 
 
 
